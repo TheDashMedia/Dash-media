@@ -242,7 +242,10 @@ export default function Home() {
   ]}
   subtitle={
     <>
-      TURNING CHAOS <br /> INTO CREATION
+      Turning Chaos into Creation <br /> Elevate Your Brand with The Dash Media
+
+
+
     </>
   }
   videoSrc="https://www.youtube.com/embed/VcaAVWtP48A"
