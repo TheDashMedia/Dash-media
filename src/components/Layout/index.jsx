@@ -7,7 +7,7 @@ export default function Layout({ darkMode }) {
   return (
     <div className={`${darkMode ? 'cs_dark' : ''}`}>
       <Header
-        logoUrl={darkMode ? '/images/logo_white.svg' : '/images/logo.svg'}
+        logoUrl={darkMode ? '/images/Main long Secondary 1.png' : '/images/logo.svg'}
         actionBtnText="Getting Started"
         actionBtnUrl="/contact"
       />

@@ -20,7 +20,7 @@ export default function ContactPage() {
         <div className="container">
           <div className="row align-items-center cs_gap_y_45">
             <div className="col-lg-6">
-              <h2 className="cs_fs_50">
+              <h2 className="cs_fs_13">
                 Let's Connect & Create! <br />
                 Have a project in mind? Need expert digital solutions? We're here to help turn your vision into reality. Reach out to us and let's build something impactful together.
               </h2>
