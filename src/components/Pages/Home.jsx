@@ -15,28 +15,30 @@ import TestimonialSlider from '../Slider/TestimonialSlider';
 import PostCarousel from '../Slider/PostCarousel';
 import { pageTitle } from '../../helpers/PageTitle';
 const funfactData = [
-  { title: 'Happy Customers', number: '15k' },
-  { title: 'Work’s Completed', number: '25k' },
-  { title: 'Skilled Team Members', number: '15' },
-  { title: 'Years Of Excellence ', number: '5+' },
+  { title: 'Happy Clients', number: '15K+' },
+  { title: 'Projects Completed', number: '25K+' },
+  { title: 'Skilled Team Members', number: '15+' },
+  { title: 'Brands Transformed', number: '100+' },
 ];
+
 const whyChoseFeatureData = [
   {
-    title: 'Expert-Led Creative & Marketing Team',
+    title: 'Industry expertise and market insights',
     content:
-      'A highly skilled team specializing in social media, branding, video production, website development, and influencer marketing.',
+      'We leverage deep industry knowledge and market trends to craft strategies that give brands a competitive edge.',
   },
   {
-    title: 'Highly accuracy AI based system',
+    title: 'Creative minds shaping brand identities',
     content:
-      'Our team, specializing in strategic digital marketing, are not partners with the world is leading brands. Breaking from the norm, we push boundaries and merge.',
+      'Our team of designers and storytellers bring brands to life with innovative visuals and compelling narratives.',
   },
   {
-    title: 'Secret successful brand strategy formula',
+    title: 'Data-driven strategies for business growth',
     content:
-      'Our team, specializing in strategic digital marketing, are not partners with the world is leading brands. Breaking from the norm, we push boundaries and merge.',
+      'We combine analytics and creativity to develop marketing strategies that drive measurable results and long-term success.',
   },
 ];
+
 const serviceListData = [
   {
     title: 'Brand & Digital Marketing',
@@ -67,6 +69,7 @@ const serviceListData = [
     href: '/service/service-details',
   },
 ];
+
 const portfolioData = [
   {
     href: '/portfolio/portfolio-details',
@@ -93,6 +96,7 @@ const portfolioData = [
     btnText: 'See Project',
   },
 ];
+
 const awardData = [
   {
     brand: 'Behance',
@@ -119,6 +123,7 @@ const awardData = [
     awardImgUrl: '/images/creative-agency/award_img_3.svg',
   },
 ];
+
 const testimonialData = [
   {
     text: 'Zivans Motion Graphics did an excellent job on my video related projects. The motion graphics added an extra layer of polish and really brought the video to life. I highly recommend their high quality services and work.',
@@ -136,31 +141,32 @@ const testimonialData = [
     avatarDesignation: 'MD at Delta',
   },
 ];
+
 const faqData = [
   {
     title: '01. What services does The Dash Media offer?',
     content:
-      'We provide end-to-end creative solutions, including social media marketing, video production, website development, influencer marketing, event management, and e-commerce solutions.',
+      'We specialize in social media marketing, e-commerce solutions, video production, influencer marketing, event management, website development, and more.',
   },
   {
     title: '02. How can The Dash Media help my brand grow?',
     content:
-      'Marketing eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.',
+      'We create strategic marketing campaigns, design compelling visuals, and develop impactful content to drive brand visibility and engagement.',
   },
   {
-    title: '03. What are the different stages of the working process?',
+    title: '03. Do you work with startups and small businesses?',
     content:
-      'Marketing eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.',
+      'Yes! We tailor our solutions to fit businesses of all sizes, from startups to established enterprises.',
   },
   {
-    title: '04. What is the difference between direct and digital marketing?',
+    title: '04. How do I get started with The Dash Media?',
     content:
-      'Marketing eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.',
+      'Simply reach out via our contact form, email, or phone, and we’ll schedule a consultation to understand your needs.',
   },
   {
-    title: '05. How can i payment proceed after complete project?',
+    title: '05. Do you offer customized marketing solutions?',
     content:
-      'Marketing eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.',
+      'Absolutely! Every brand is unique, and we create tailored strategies to meet your specific goals and challenges.',
   },
 ];
 
@@ -215,16 +221,24 @@ const postData = [
   },
 ];
 
+// New Contact Element After Testimonials
+const contactElement = {
+  title: 'Do you have a specific project or goal in mind?',
+  subtitle: 'Let’s turn Chaos into Creation Together!',
+  buttonText: 'Contact Us',
+  buttonUrl: '/contact-us',
+};
+
 export default function Home() {
   pageTitle('Zivan');
   return (
     <>
       <Hero
   title={[
-    'Delhi Based Creative Agency',
-    '25+ Years of Experience',
-    '30+ Worldwide Partnership',
-    'Take World-class Service',
+    '15K+ Happy Clients',
+    '25K+ Projects Completed',
+    '5+ Skilled Team Members',
+    '100+ Brands Transformed',
   ]}
   subtitle={
     <>

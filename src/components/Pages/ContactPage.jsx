@@ -21,22 +21,22 @@ export default function ContactPage() {
           <div className="row align-items-center cs_gap_y_45">
             <div className="col-lg-6">
               <h2 className="cs_fs_50">
-                Come & visit <br />
-                our place!
+                Let's Connect & Create! <br />
+                Have a project in mind? Need expert digital solutions? We're here to help turn your vision into reality. Reach out to us and let's build something impactful together.
               </h2>
               <div className="cs_height_55 cs_height_lg_30" />
               <ul className="cs_mp0 cs_contact_info">
                 <li>
                   <h3 className="cs_fs_29 cs_semibold">Email:</h3>
-                  <p className="mb-0">hello@zivan.com</p>
+                  <p className="mb-0">info@thedashmedia.in</p>
                 </li>
                 <li>
                   <h3 className="cs_fs_29 cs_semibold">Phone:</h3>
-                  <p className="mb-0">+54 45 454 78 23</p>
+                  <p className="mb-0">+91 9717259392 | +91 8882900463</p>
                 </li>
                 <li>
                   <h3 className="cs_fs_29 cs_semibold">Address:</h3>
-                  <p className="mb-0">55/53 Jay Pathshala Apt. 908, USA</p>
+                  <p className="mb-0">Atal Incubation & Innovation Centre, Guru Gobind Singh Indraprastha University, opp. Gandhi ji Statue, Sector 16 C, Dwarka, Delhi, 110078</p>
                 </li>
               </ul>
             </div>
