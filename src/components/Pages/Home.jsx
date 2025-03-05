@@ -233,7 +233,7 @@ export default function Home() {
   pageTitle('Zivan');
   return (
     <>
-      <Hero
+     <Hero
   title={[
     '15K+ Happy Clients',
     '25K+ Projects Completed',
@@ -243,13 +243,11 @@ export default function Home() {
   subtitle={
     <>
       Turning Chaos into Creation <br /> Elevate Your Brand with The Dash Media
-
-
-
     </>
   }
-  videoSrc="https://www.youtube.com/embed/VcaAVWtP48A"
+  videoSrc="/videos/hero_video.mp4"
   bgUrl="/images/creative-agency/hero_video_bg_1.jpeg"
+  isLocalVideo={true}
 />
       <Spacing lg="125" md="70" />
       <div className="container">

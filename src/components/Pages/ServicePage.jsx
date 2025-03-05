@@ -12,15 +12,15 @@ const serviceData = [
     title: 'Social Media Management & Marketing',
     subTitle:
       'Strategic content planning, audience engagement, and performance-driven marketing to enhance brand visibility across platforms.',
-    thumbnailSrc: '/images/studio-agency/service_img_1.jpeg',
-    href: '/service/service-details',
+      thumbnailSrc: '/images/studio-agency/Social Media Marketing.png',
+      href: '/service/service-details',
   },
   {
     number: '02',
     title: 'E-commerce Solutions',
     subTitle:
       'Seamless marketplace management on Amazon, Flipkart, and other platforms to maximize online sales and customer reach.',
-    thumbnailSrc: '/images/studio-agency/service_img_2.jpeg',
+    thumbnailSrc: '/images/studio-agency/E commerce Solutions.png', // Fixed path
     href: '/service/service-details',
   },
   {
@@ -28,7 +28,7 @@ const serviceData = [
     title: 'Event Management',
     subTitle:
       'Luxury, corporate, and fundraising events executed with precision, creativity, and a seamless on-ground experience.',
-    thumbnailSrc: '/images/studio-agency/service_img_3.jpeg',
+    thumbnailSrc: '/images/studio-agency/Event Management.png',
     href: '/service/service-details',
   },
   {
@@ -36,7 +36,7 @@ const serviceData = [
     title: 'Website Development',
     subTitle:
       'Custom-designed, responsive, and high-performing websites optimized for user experience and brand identity.',
-    thumbnailSrc: '/images/studio-agency/service_img_4.jpeg',
+    thumbnailSrc: '/images/studio-agency/Web Development.png',
     href: '/service/service-details',
   },
   {
@@ -44,7 +44,7 @@ const serviceData = [
     title: 'Video Production & Professional Shoots',
     subTitle:
       'Cinematic storytelling through high-quality video production, editing, and dynamic motion design.',
-    thumbnailSrc: '/images/studio-agency/service_img_5.jpeg',
+    thumbnailSrc: '/images/studio-agency/Video Production.png',
     href: '/service/service-details',
   },
   {
@@ -52,7 +52,7 @@ const serviceData = [
     title: 'Merchandise Solutions',
     subTitle:
       'Customized brand merchandise, promotional products, and premium giveaways to strengthen brand recall.',
-    thumbnailSrc: '/images/studio-agency/service_img_1.jpeg',
+    thumbnailSrc: '/images/studio-agency/Merchandise Solutions.png',
     href: '/service/service-details',
   },
   {
@@ -60,7 +60,7 @@ const serviceData = [
     title: 'Influencer Marketing',
     subTitle:
       'Collaborate with top influencers and content creators to amplify brand awareness and audience engagement.',
-    thumbnailSrc: '/images/studio-agency/service_img_2.jpeg',
+    thumbnailSrc: '/images/studio-agency/Influencer Marketing.png',
     href: '/service/service-details',
   },
   {
@@ -68,8 +68,8 @@ const serviceData = [
     title: 'Brand Strategy & Consulting',
     subTitle:
       'Data-driven insights, competitive analysis, and strategic brand positioning to drive long-term business growth.',
-    thumbnailSrc: '/images/studio-agency/service_img_3.jpeg',
-    href: '/service/service-details',
+      thumbnailSrc: '/images/studio-agency/Brand Strategy and Consultation.png', // Corrected path
+      href: '/service/service-details',
   },
 ];
 
